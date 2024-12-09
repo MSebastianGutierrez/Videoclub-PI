@@ -1,0 +1,1 @@
+Dado que el proyecto utiliza tkinter y SQLite, que son bibliotecas estándar de Python, no se necesita instalar ninguna dependencia adicional. 
