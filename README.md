@@ -19,12 +19,12 @@ Este proyecto es un sistema de gestión para un videoclub, que permite gestionar
 
 1. Clona el repositorio:
     ```sh
-    git clone https://github.com/tu-usuario/tu-repositorio.git
+    git clone https://github.com/MSebastianGutierrez/Videoclub-PI.git
     ```
 
 2. Navega al directorio del proyecto:
     ```sh
-    cd tu-repositorio
+    cd Videoclub-PI
     ```
 
 3. Instala las dependencias:
@@ -39,7 +39,7 @@ Este proyecto es un sistema de gestión para un videoclub, que permite gestionar
     python main.py
     ```
 
-2. Utiliza la barra de menú superior para navegar entre las diferentes secciones del sistema:
+2. Utiliza la barra de menú superior para navegar entre las diferentes pantallas del sistema:
     - Inicio
     - Películas
     - Socios
@@ -52,17 +52,17 @@ Este proyecto es un sistema de gestión para un videoclub, que permite gestionar
   - `conexion_db.py`: Manejo de la conexión a la base de datos.
   - `pelicula_dao.py`: Operaciones CRUD para películas, socios y alquileres.
 - `vista/`: Contiene los archivos relacionados con la interfaz gráfica de usuario.
-  - `frame_inicio.py`: Frame de inicio.
-  - `frame_peliculas.py`: Frame para gestionar películas.
-  - `frame_socios.py`: Frame para gestionar socios.
-  - `frame_alquileres.py`: Frame para gestionar alquileres.
+  - `frame_inicio.py`: Interface de inicio.
+  - `frame_peliculas.py`: Formulario para gestionar películas.
+  - `frame_socios.py`: Formulario para gestionar socios.
+  - `frame_alquileres.py`: Formulario para gestionar alquileres.
   - `barrita_menu.py`: Configuración de la barra de menú.
 
 ## 🗃️ Base de Datos
 
 El proyecto utiliza SQLite para almacenar la información de películas, socios y alquileres. Las tablas se crean automáticamente si no existen.
 
-- `peliculas`: Almacena información sobre las películas.
+- `peliculas`: Guarda información sobre las películas.
 - `socios`: Almacena información sobre los socios.
-- `alquileres`: Almacena información sobre los alquileres.
+- `alquileres`: Se carga la información sobre los alquileres.
 
